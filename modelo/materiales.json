@@ -1,0 +1,402 @@
+{
+ "k": 0.6292016775995161,
+ "materiales": {
+  "pared": {
+   "color": "#F3EEE4",
+   "rug": 0.9
+  },
+  "pared_humeda": {
+   "color": "#EFEAE0",
+   "rug": 0.45
+  },
+  "pared_qx": {
+   "color": "#EEF0E6",
+   "rug": 0.35
+  },
+  "pared_nucleo": {
+   "color": "#DAD7D0",
+   "rug": 0.9
+  },
+  "corte": {
+   "color": "#2E3338",
+   "rug": 1.0,
+   "luz": false
+  },
+  "piso": {
+   "color": "#FFFFFF",
+   "rug": 0.18,
+   "mapa": "terrazo.jpg",
+   "tam": 1.2
+  },
+  "piso_qx": {
+   "color": "#E9E9E1",
+   "rug": 0.25
+  },
+  "piso_optica": {
+   "color": "#FFFFFF",
+   "rug": 0.5,
+   "mapa": "tablon.jpg",
+   "tam": 2.4
+  },
+  "piso_comun": {
+   "color": "#D9D4C9",
+   "rug": 0.3,
+   "mapa": "terrazo.jpg",
+   "tam": 1.2
+  },
+  "piso_base": {
+   "color": "#CFC8BA",
+   "rug": 0.5
+  },
+  "zocalo": {
+   "color": "#E6DDCB",
+   "rug": 0.3
+  },
+  "techo": {
+   "color": "#FAF8F3",
+   "rug": 0.95
+  },
+  "columna": {
+   "color": "#E9E5DC",
+   "rug": 0.9
+  },
+  "aluminio": {
+   "color": "#3B3F45",
+   "rug": 0.4,
+   "metal": 0.8
+  },
+  "vidrio": {
+   "color": "#BFD9E6",
+   "rug": 0.05,
+   "alfa": 0.22,
+   "luz": false
+  },
+  "vidrio_esm": {
+   "color": "#E8EEF0",
+   "rug": 0.6,
+   "alfa": 0.55,
+   "luz": false
+  },
+  "exterior": {
+   "color": "#B9BEC0",
+   "rug": 0.9
+  },
+  "cerezo": {
+   "color": "#B4673A",
+   "rug": 0.35,
+   "mapa": "veta.jpg",
+   "tam": 1.1
+  },
+  "caoba": {
+   "color": "#6E3423",
+   "rug": 0.4,
+   "mapa": "veta.jpg",
+   "tam": 1.1
+  },
+  "nogal": {
+   "color": "#4A3327",
+   "rug": 0.45,
+   "mapa": "veta.jpg",
+   "tam": 1.1
+  },
+  "roble": {
+   "color": "#D2B48A",
+   "rug": 0.5,
+   "mapa": "veta.jpg",
+   "tam": 1.1
+  },
+  "haya": {
+   "color": "#D9A45F",
+   "rug": 0.4,
+   "mapa": "veta.jpg",
+   "tam": 1.1
+  },
+  "arce": {
+   "color": "#E3D0B4",
+   "rug": 0.5,
+   "mapa": "veta.jpg",
+   "tam": 1.1
+  },
+  "tela_naranja": {
+   "color": "#B4572A",
+   "rug": 0.95,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "tela_cafe": {
+   "color": "#7A4E36",
+   "rug": 0.95,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "tela_beige": {
+   "color": "#B9AC8E",
+   "rug": 0.95,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "tela_gris": {
+   "color": "#8D9095",
+   "rug": 0.95,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "tela_negra": {
+   "color": "#25272B",
+   "rug": 0.9,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "tela_blanca": {
+   "color": "#F2F0EA",
+   "rug": 0.95,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "tela_azul": {
+   "color": "#2B5E86",
+   "rug": 0.95,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "cortina": {
+   "color": "#DCE6EA",
+   "rug": 0.9,
+   "mapa": "tela.jpg",
+   "tam": 0.25
+  },
+  "cromo": {
+   "color": "#D9DCDF",
+   "rug": 0.12,
+   "metal": 1.0,
+   "luz": false
+  },
+  "acero": {
+   "color": "#B9BDC1",
+   "rug": 0.35,
+   "metal": 0.9,
+   "luz": false
+  },
+  "acero_mate": {
+   "color": "#A9ADB0",
+   "rug": 0.6
+  },
+  "blanco": {
+   "color": "#F4F3EF",
+   "rug": 0.4
+  },
+  "aro": {
+   "color": "#EFEDE8",
+   "rug": 0.5,
+   "luz": false
+  },
+  "escalon_a": {
+   "color": "#DAD7D0",
+   "rug": 0.8,
+   "luz": false
+  },
+  "escalon_b": {
+   "color": "#BDB9B1",
+   "rug": 0.8,
+   "luz": false
+  },
+  "blanco_mate": {
+   "color": "#ECEAE4",
+   "rug": 0.8
+  },
+  "gris": {
+   "color": "#9A9C9E",
+   "rug": 0.6
+  },
+  "gris_oscuro": {
+   "color": "#3A3C40",
+   "rug": 0.6
+  },
+  "negro": {
+   "color": "#1B1C1E",
+   "rug": 0.5
+  },
+  "marmol": {
+   "color": "#EDE4D0",
+   "rug": 0.15
+  },
+  "oliva": {
+   "color": "#B7B56B",
+   "rug": 0.5
+  },
+  "amarillo": {
+   "color": "#E9B824",
+   "rug": 0.5
+  },
+  "azul_covs": {
+   "color": "#007CBE",
+   "rug": 0.5
+  },
+  "porcelana": {
+   "color": "#F7F7F5",
+   "rug": 0.12
+  },
+  "espejo": {
+   "color": "#C9D3D8",
+   "rug": 0.05,
+   "metal": 1.0,
+   "luz": false
+  },
+  "hoja": {
+   "color": "#3F6B3A",
+   "rug": 0.7
+  },
+  "tierra": {
+   "color": "#4A3A2C",
+   "rug": 0.9
+  },
+  "flor": {
+   "color": "#F0C23A",
+   "rug": 0.7
+  },
+  "flor_roja": {
+   "color": "#D4584B",
+   "rug": 0.7
+  },
+  "pantalla": {
+   "color": "#FFFFFF",
+   "rug": 0.3,
+   "mapa": "pantalla.jpg",
+   "tam": 1.0,
+   "emite": [
+    "#DCE8F2",
+    1.2
+   ],
+   "luz": false
+  },
+  "libros": {
+   "color": "#FFFFFF",
+   "rug": 0.8,
+   "mapa": "libros.jpg",
+   "tam": 1.0
+  },
+  "carpetas": {
+   "color": "#FFFFFF",
+   "rug": 0.8,
+   "mapa": "carpetas.jpg",
+   "tam": 1.0
+  },
+  "sabana": {
+   "color": "#F3F3F0",
+   "rug": 0.9
+  },
+  "celeste": {
+   "color": "#9FC3DA",
+   "rug": 0.8
+  },
+  "luz_calida": {
+   "color": "#FFE9C4",
+   "rug": 0.5,
+   "emite": [
+    "#FFE2B8",
+    2.5
+   ],
+   "luz": false
+  },
+  "luz_fria": {
+   "color": "#F2F8FF",
+   "rug": 0.5,
+   "emite": [
+    "#EAF3FF",
+    3.0
+   ],
+   "luz": false
+  },
+  "luz_led": {
+   "color": "#FFE7C2",
+   "rug": 0.5,
+   "emite": [
+    "#FFDDAA",
+    11.0
+   ],
+   "luz": false
+  },
+  "luz_pantalla": {
+   "color": "#FFE08A",
+   "rug": 0.6,
+   "emite": [
+    "#FFD466",
+    4.0
+   ],
+   "luz": false
+  },
+  "luz_globo": {
+   "color": "#FFF3DC",
+   "rug": 0.5,
+   "emite": [
+    "#FFEFD2",
+    14.0
+   ],
+   "luz": false
+  },
+  "salida": {
+   "color": "#FF3B30",
+   "rug": 0.5,
+   "emite": [
+    "#FF3B30",
+    3.0
+   ],
+   "luz": false
+  },
+  "arte_ojos": {
+   "color": "#FFFFFF",
+   "rug": 0.6,
+   "mapa": "ojos.jpg",
+   "tam": 1.0,
+   "unico": true
+  },
+  "arte_snellen": {
+   "color": "#FFFFFF",
+   "rug": 0.4,
+   "mapa": "snellen.jpg",
+   "tam": 1.0,
+   "unico": true
+  },
+  "arte_iris": {
+   "color": "#FFFFFF",
+   "rug": 0.6,
+   "mapa": "iris.jpg",
+   "tam": 1.0,
+   "unico": true
+  },
+  "arte_retina": {
+   "color": "#FFFFFF",
+   "rug": 0.6,
+   "mapa": "retina.jpg",
+   "tam": 1.0,
+   "unico": true
+  },
+  "arte_cornea": {
+   "color": "#FFFFFF",
+   "rug": 0.6,
+   "mapa": "cornea.jpg",
+   "tam": 1.0,
+   "unico": true
+  },
+  "arte_logo": {
+   "color": "#FFFFFF",
+   "rug": 0.6,
+   "mapa": "logo.jpg",
+   "tam": 1.0,
+   "unico": true
+  },
+  "arte_cartilla": {
+   "color": "#FFFFFF",
+   "rug": 0.5,
+   "mapa": "cartilla.jpg",
+   "tam": 1.0,
+   "unico": true,
+   "emite": [
+    "#FFFFFF",
+    1.5
+   ],
+   "luz": false
+  }
+ },
+ "k_lm": 0.6144192756047157
+}

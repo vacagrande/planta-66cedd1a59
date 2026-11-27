@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Planta del Centro Oftálmico</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23007cbe'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="estilo.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js", "three/addons/": "./vendor/jsm/" } }
+</script>
+</head>
+<body>
+<canvas id="lienzo" aria-label="Modelo 3D del centro oftálmico"></canvas>
+
+<div id="etiquetas" class="etiquetas oculto"></div>
+
+<section id="carga">
+  <div class="carga-caja">
+    <div class="anillo"><span id="carga-pct">0</span><small>%</small></div>
+    <p class="carga-titulo">Centro Oftálmico</p>
+    <p class="carga-sub" id="carga-texto">Cargando el modelo…</p>
+  </div>
+</section>
+
+
+<aside id="plano-tarjeta" class="tarjeta-plano">
+  <header>
+    <span id="plano-titulo">PLANTA</span><em id="plano-sub">ESC 1:100 · 26 NOV 2026</em>
+    <button id="plano-tam" title="Agrandar o achicar el plano" aria-label="Agrandar o achicar el plano">⤢</button>
+  </header>
+  <canvas id="plano" width="760" height="400"></canvas>
+  <footer><span class="punto"></span> Usted está aquí · toque el plano para ir a un ambiente</footer>
+</aside>
+
+<aside id="ficha" class="ficha">
+  <p class="ficha-rotulo" id="ficha-zona">Vista general</p>
+  <h1 id="ficha-nombre">Centro Oftálmico</h1>
+  <p class="ficha-medidas" id="ficha-medidas">Planta completa</p>
+  <div id="paseo-caja" class="paseo" hidden>
+    <p id="paseo-texto" class="paseo-texto"></p>
+    <p id="paseo-marcas" class="paseo-marcas"></p>
+    <div class="paseo-barra" aria-hidden="true"><i id="paseo-avance"></i></div>
+    <div class="paseo-ctl">
+      <button id="paseo-ant" aria-label="Parada anterior" title="Parada anterior">‹</button>
+      <button id="paseo-pausa" aria-label="Pausar o seguir" title="Pausar o seguir">Pausa</button>
+      <button id="paseo-sig" aria-label="Parada siguiente" title="Parada siguiente">›</button>
+      <span id="paseo-cuenta"></span>
+    </div>
+  </div>
+  <div class="ficha-botones" id="ficha-botones">
+    <button id="btn-lista" class="btn-lista">Ambientes <span>▾</span></button>
+    <button id="btn-imagenes" class="btn-lista btn-imagenes">Imágenes</button>
+  </div>
+  <nav id="lista" class="lista" hidden></nav>
+</aside>
+
+<div id="modos" class="modos" role="tablist">
+  <button id="modo-maqueta" class="activo" role="tab">Maqueta</button>
+  <button id="modo-caminar" role="tab">Caminar</button>
+  <button id="modo-paseo" role="tab" title="Recorrido automático, ambiente por ambiente">Paseo guiado</button>
+</div>
+
+<p id="ayuda" class="ayuda"></p>
+<p id="firma" class="firma">Plano: Durán-Ballén Arquitecto &amp; Cía., 26/nov/2026 · a escala según las medidas rotuladas · muebles y acabados ilustrativos</p>
+
+<section id="galeria" class="galeria" hidden aria-label="Imágenes del centro">
+  <div class="gal-caja">
+    <header class="gal-cabeza">
+      <div>
+        <p class="gal-rotulo" id="gal-rotulo">Renders del modelo</p>
+        <h2>Imágenes</h2>
+      </div>
+      <button id="gal-cerrar" class="gal-boton">Volver al 3D</button>
+    </header>
+    <div id="gal-grilla" class="gal-grilla"></div>
+  </div>
+  <figure id="gal-visor" class="gal-visor" hidden>
+    <img id="gal-img" alt="">
+    <figcaption id="gal-titulo"></figcaption>
+    <button id="gal-ant" class="gal-flecha gal-izq" aria-label="Imagen anterior">‹</button>
+    <button id="gal-sig" class="gal-flecha gal-der" aria-label="Imagen siguiente">›</button>
+    <button id="gal-volver" class="gal-boton gal-todas">Ver todas</button>
+  </figure>
+</section>
+
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
